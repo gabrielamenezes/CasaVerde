@@ -1,0 +1,31 @@
+.home {
+    padding-top: 2.5rem;
+    margin-bottom: 2.5rem;
+
+    background-image: url(../img/splash-home.svg);
+    background-position: top -4rem right;
+    background-repeat: no-repeat;
+
+
+    position: relative;
+}
+
+.home__texto {
+    /*width: 12.5rem;*/
+
+    margin-bottom: 1.55rem;
+
+}
+
+.home__planta {
+    position: absolute;
+    top: 1.5rem;
+    right: 0;
+    margin-top: 1rem;
+    z-index: 1;
+}
+
+.home__form {
+    z-index: 2;
+    position: relative;
+}
